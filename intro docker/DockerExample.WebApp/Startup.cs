@@ -32,7 +32,11 @@ namespace DockerExample.WebApp
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello in world of cointainers");
+                });
+                endpoints.MapGet("/2", async context =>
+                {
+                    await context.Response.WriteAsync("2.0 version");
                 });
             });
         }
