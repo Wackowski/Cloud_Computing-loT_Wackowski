@@ -15,11 +15,12 @@
             </Grid.RowDefinitions>
             <Image x:Name="imgPhoto" Grid.Row="0"/>
             <StackLayout Grid.Row="1">
-                <Button x:Name="binPhoto" Text="Take a picture" />
+                <Button x:Name="btnPhoto" Text="Take a picture" />
                 <Entry x:Name="tbxFirstName" Placeholder="First Name"/>
                 <Entry x:Name="tbxSecondName" Placeholder="Second Name"/>
                 <Entry x:Name="tbxPhone" Placeholder=" Phone Number" Keyboard="Telephone"/>
             </StackLayout>
+            <Button x:Name="btnSave" Text="Save data" Grid.Row="2"/>
         </Grid>
     </StackLayout>
 

@@ -22,11 +22,6 @@ namespace PeopleStoreAppWeb.Controllers
             return Ok(db.People);
         }
 
-        private IActionResult Ok(object people)
-        {
-            throw new NotImplementedException();
-        }
-
         [HttpPost]
         public IActionResult AddPerson([FromBody]Person person)
         {
